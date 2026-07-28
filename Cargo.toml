@@ -1,0 +1,9 @@
+[package]
+name = "fstool"
+version = "1.0.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+rustyline = { version = "18.0", features = [] }
+chrono = { version = "0.4" }

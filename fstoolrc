@@ -1,0 +1,22 @@
+# Example FS Tool Source File
+# This is in the search path, and the commands
+# below will be executed before the prompt is even shown.
+# You can use the "break" command to stop reading this file.
+# Stephen Marz
+# 13 June 2026
+
+alias @ alias
+@ john ls -l
+@ ll ls -l
+@ la ls -a
+@ lla ls -l -a
+@ ! shell /bin/bash
+@ !ls shell /bin/bash -c "ls -l -a --color=auto"
+@ ^ cd ..
+@ . ls -a
+@ l ls
+@ # pwd
+@ % exec
+uid 1000
+gid 1003
+umask 022
