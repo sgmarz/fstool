@@ -6,6 +6,7 @@ An interactive tool to create, read, or write file systems.
 
 * Minix 3
 * Ext2 - in progress (0/100)
+* ExFat - in progress (50/100)
 
 ## Source File
 
